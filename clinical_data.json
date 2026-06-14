@@ -1,0 +1,236 @@
+{
+  "risk_factors": [
+    {
+      "factor": "HPV (high-risk types)",
+      "description": "Persistent infection with high-risk HPV types (mostly 16 and 18) carries the highest relative risk factor.",
+      "prevention": "HPV Vaccination (prophylactic) before sexual debut and safe sex practices."
+    },
+    {
+      "factor": "No Pap smear screening",
+      "description": "Lack of regular cytological screening prevents detection of precancerous lesions.",
+      "prevention": "Adherence to the national screening program (Pap smear every 3 years)."
+    },
+    {
+      "factor": "Immunosuppression / HIV",
+      "description": "A weakened immune system reduces the body's ability to fight off HPV infections.",
+      "prevention": "Regular clinical monitoring and antiviral therapy management."
+    },
+    {
+      "factor": "Multiple sexual partners",
+      "description": "Increases the statistical likelihood of exposure to high-risk HPV strains.",
+      "prevention": "Barrier protection (condoms) and reducing the number of partners."
+    },
+    {
+      "factor": "Smoking",
+      "description": "Tobacco by-products concentrate in cervical mucus, damaging DNA and doubling risk.",
+      "prevention": "Smoking cessation programs and avoiding secondhand smoke."
+    },
+    {
+      "factor": "Low socioeconomic status",
+      "description": "Often correlates with limited healthcare access and lower screening participation.",
+      "prevention": "Targeted public health outreach and free screening initiatives."
+    },
+    {
+      "factor": "Early sexual debut (<16 y)",
+      "description": "The immature cervical transformation zone in adolescents is more susceptible to viral changes.",
+      "prevention": "Sexual health education and delaying sexual debut."
+    },
+    {
+      "factor": "Chlamydia infection",
+      "description": "Co-infection with Chlamydia trachomatis acts as an inflammatory cofactor with HPV.",
+      "prevention": "Regular STI testing, barrier methods, and prompt antibiotic treatment."
+    },
+    {
+      "factor": "Long-term OCP use (>5 y)",
+      "description": "Extended use of oral contraceptive pills is associated with a slight biological risk increase.",
+      "prevention": "Routine gynecological check-ups and discussing alternative contraception if appropriate."
+    },
+    {
+      "factor": "High parity (≥3 births)",
+      "description": "Multiple full-term pregnancies cause hormonal and physical cervical trauma.",
+      "prevention": "Postpartum care and routine screening adherence."
+    }
+  ],
+  "diagnosis": [
+    {
+      "test": "Pap smear",
+      "phase": "Screening",
+      "clinical_use": "Screening (25-59 y)",
+      "sensitivity": "55%",
+      "specificity": "97%"
+    },
+    {
+      "test": "HPV DNA test",
+      "phase": "Screening",
+      "clinical_use": "Screening / triage",
+      "sensitivity": "90%",
+      "specificity": "85%"
+    },
+    {
+      "test": "Colposcopy",
+      "phase": "Diagnosis",
+      "clinical_use": "Diagnostic workup",
+      "sensitivity": "92%",
+      "specificity": "88%"
+    },
+    {
+      "test": "Punch biopsy",
+      "phase": "Diagnosis",
+      "clinical_use": "Histological confirmation",
+      "sensitivity": "95%",
+      "specificity": "99%"
+    },
+    {
+      "test": "Cone biopsy (LEEP/CKC)",
+      "phase": "Diagnosis",
+      "clinical_use": "Diagnosis + treatment (CIN)",
+      "sensitivity": "97%",
+      "specificity": "99%"
+    },
+    {
+      "test": "MRI pelvis",
+      "phase": "Staging",
+      "clinical_use": "Staging (IB+)",
+      "sensitivity": "85%",
+      "specificity": "90%"
+    },
+    {
+      "test": "CT chest/abdomen",
+      "phase": "Staging",
+      "clinical_use": "Staging (IIB+)",
+      "sensitivity": "75%",
+      "specificity": "88%"
+    },
+    {
+      "test": "PET-CT",
+      "phase": "Staging",
+      "clinical_use": "Staging / restaging",
+      "sensitivity": "88%",
+      "specificity": "92%"
+    }
+  ],
+  "treatment": [
+    {
+      "figo_stage": "IA1",
+      "description": "Microscopic tumor with stromal invasion < 3 mm in depth.",
+      "primary_treatment": "Conisation / simple hysterectomy",
+      "fertility_sparing": "Yes (conisation)",
+      "five_year_survival": "98%"
+    },
+    {
+      "figo_stage": "IA1 (LVSI+)",
+      "description": "Microscopic tumor < 3 mm depth, with lymphovascular space invasion.",
+      "primary_treatment": "Modified radical hysterectomy",
+      "fertility_sparing": "Possible (trachelectomy)",
+      "five_year_survival": "95%"
+    },
+    {
+      "figo_stage": "IA2",
+      "description": "Microscopic tumor with stromal invasion ≥ 3 mm and < 5 mm in depth.",
+      "primary_treatment": "Radical hysterectomy + LND",
+      "fertility_sparing": "Trachelectomy if < 2 cm",
+      "five_year_survival": "92%"
+    },
+    {
+      "figo_stage": "IB1",
+      "description": "Invasive carcinoma ≥ 5 mm depth and < 2 cm in greatest dimension.",
+      "primary_treatment": "Radical hysterectomy + LND",
+      "fertility_sparing": "Trachelectomy if < 2 cm",
+      "five_year_survival": "88%"
+    },
+    {
+      "figo_stage": "IB2",
+      "description": "Invasive carcinoma ≥ 2 cm and < 4 cm in greatest dimension.",
+      "primary_treatment": "Radical hysterectomy + LND or CCRT",
+      "fertility_sparing": "No",
+      "five_year_survival": "78%"
+    },
+    {
+      "figo_stage": "IB3",
+      "description": "Invasive carcinoma ≥ 4 cm in greatest dimension.",
+      "primary_treatment": "CCRT (cisplatin)",
+      "fertility_sparing": "No",
+      "five_year_survival": "65%"
+    },
+    {
+      "figo_stage": "IIA1",
+      "description": "Tumor involves upper two-thirds of the vagina, without parametrial invasion, < 4 cm.",
+      "primary_treatment": "Radical hysterectomy + LND",
+      "fertility_sparing": "No",
+      "five_year_survival": "72%"
+    },
+    {
+      "figo_stage": "IIA2",
+      "description": "Tumor involves upper two-thirds of the vagina, without parametrial invasion, ≥ 4 cm.",
+      "primary_treatment": "CCRT",
+      "fertility_sparing": "No",
+      "five_year_survival": "58%"
+    },
+    {
+      "figo_stage": "IIB",
+      "description": "Tumor with parametrial involvement, but not up to the pelvic wall.",
+      "primary_treatment": "CCRT",
+      "fertility_sparing": "No",
+      "five_year_survival": "52%"
+    },
+    {
+      "figo_stage": "IIIA",
+      "description": "Tumor involves lower third of the vagina, with no extension to the pelvic wall.",
+      "primary_treatment": "CCRT",
+      "fertility_sparing": "No",
+      "five_year_survival": "42%"
+    },
+    {
+      "figo_stage": "IIIB",
+      "description": "Tumor extends to the pelvic wall and/or causes hydronephrosis or non-functioning kidney.",
+      "primary_treatment": "CCRT",
+      "fertility_sparing": "No",
+      "five_year_survival": "36%"
+    },
+    {
+      "figo_stage": "IIIC",
+      "description": "Involvement of pelvic and/or para-aortic lymph nodes, irrespective of tumor size.",
+      "primary_treatment": "CCRT",
+      "fertility_sparing": "No",
+      "five_year_survival": "38%"
+    },
+    {
+      "figo_stage": "IVA",
+      "description": "Spread to adjacent pelvic organs (mucosa of bladder or rectum).",
+      "primary_treatment": "CCRT ± pelvic exenteration",
+      "fertility_sparing": "No",
+      "five_year_survival": "22%"
+    },
+    {
+      "figo_stage": "IVB",
+      "description": "Spread to distant organs.",
+      "primary_treatment": "Palliative chemo / immunotherapy",
+      "fertility_sparing": "No",
+      "five_year_survival": "8%"
+    }
+  ],
+  "about": {
+    "description": "This interactive dashboard presents epidemiological, diagnostic, and clinical data about cervical cancer in Poland. It was created as a data visualisation assignment using Plotly Dash. All figures are based on publicly available data from the National Cancer Registry of Poland (KRN), International Federation of Gynecology and Obstetrics (FIGO) guidelines, and international ESGO/ESTRO clinical guidelines.",
+    "tags": ["Plotly Dash", "KRN data", "ESGO guidelines", "Python 3"],
+    "how_to_use": [
+      "Use the tabs at the top to navigate between dashboard sections.",
+      "Each chart reacts to its own control widget (dropdowns, sliders, checklists).",
+      "In the Overview tab, use the slider or type a year incthe boxes to update the time period.",
+      "In the Epidemiology tab, for the age group chart select a year, select the type of data you want to see (incidence, mortality or both) and then click on a specific age group to see overall trend.",
+      "In the Epidemiology tab, for the region chart select regions and the type of data you want to see (incidence, mortality or both).",
+      "In the Risk Dactors tab, select a risk factor to highlight its description and prevention strategy.",
+      "In the Diagnosis tab, select a table row to highlight the corresponding test on the scatter plot.",
+      "In the Treatment tab, click on a bar to see the stage description.",
+      "Hover over any chart element for a detailed tooltip."
+    ],
+    "key_facts_poland": [
+      "Cervical cancer is the 7th most common cancer in Polish women.",
+      "Poland has one of the highest cervical cancer mortality rates in the EU.",
+      "The national screening programme (Pap smear every 3 y, ages 25-59) has been running since 2006, but it is safer to get a pap smear every year.",
+      "HPV vaccination was introduced into the national immunisation calendar in 2023.",
+      "Warmian-Masurian and Podlaskie voivodeships consistently show the highest incidence rates.",
+      "CCRT = concurrent chemoradiotherapy; LND = lymph node dissection; CIN = cervical intraepithelial neoplasia."
+    ],
+    "disclaimer": "Data are estimates for educational purposes. Always consult current clinical guidelines for medical decisions."
+  }
+}

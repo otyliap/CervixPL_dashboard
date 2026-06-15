@@ -169,8 +169,8 @@ def build_diag_fig(selected_rows):
             ),
             showlegend=False,
         ))
-    fig.update_xaxes(range=[50, 105], title_text="Sensitivity (%)")
-    fig.update_yaxes(range=[75, 105], title_text="Specificity (%)")
+    fig.update_xaxes(range=[50, 100], title_text="Sensitivity (%)")
+    fig.update_yaxes(range=[75, 100], title_text="Specificity (%)")
     fig.update_layout(template="simple_white", margin={"t": 20}, transition_duration=500)
     return fig
 
